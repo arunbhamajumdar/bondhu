@@ -1,0 +1,73 @@
+Dev Env Setup
+
+ 
+
+RAD Setup instructions (for EOL)
+\\bankhq.exim.gov\eximfs\Division\OCIO\EXO O&M\Team\Go To Meeting Videos\Workspace_Setup\RAD_Setup
+
+(Assume you have RAD installed/WebSphere setup on your VM; make sure IBM\WebSphere installed right on your C:\\IBM\.., not under \Program Files\)
+
+ 
+
+EOL SVN Repository –
+http://hqalmp01.bankhq.exim.gov/svn/bap/branches/Releases/EXO-23.03-DEV/apps/
+
+ 
+
+Local EOL Login (get a few logins from Dev)
+http://localhost:9080/bap/view/sample/login.jsp
+
+ 
+
+ 
+
+ELMS SVN Repo (no setup instructions according to Dev Lead Debbie)
+
+http://hqalmp01.bankhq.exim.gov/svn/apsng
+
+(try to check out ‘trunk’ only or too much)
+
+ 
+
+DB Access (assume you have SQL Developer installed on your VM) –
+
+Dev DB Connection params (same server/service with different schemas/accounts for EOL, ELMS, and APS)
+
+Host: hqlvddb02.bankhq.exim.gov
+
+Port: 1521
+
+SERVICE_NAME=EXIMDEV
+
+ 
+
+EOL DEV DB - User/pass: bap/Ex1m_e0l_d3v3nv
+ELMS DEV DB - User/pass: ecms/ex1m##13CMD3V
+APS DEV DB - User/pass: EXIMFA /exim_fadev_123
+(ask DBA/Shengning’s group to create account if you need Prod DB access)
+
+ 
+
+ 
+
+ILS EXIM SharePoint (Jill may have shared with you) -
+
+ 
+
+EXIM – with Demo videos
+
+ 
+
+EOLM Deliverables
+
+ 
+
+20210325 21F0012 MEOL & QA
+
+ 
+
+ 
+
+EXIM SharePoint Upload (Chris’ Files)
+
+EOL Vision - Path 2 Redelivery - All Documents (sharepoint.com)
